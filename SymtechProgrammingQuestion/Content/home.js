@@ -7,7 +7,7 @@ $("#postButton").click(function() {
         alert("Post");
         $.ajax({
             type: "POST",
-            url: "https://localhost:44379/api/Date",
+            url: "/api/Date",
             data: JSON.stringify(data),
             contentType: "application/json; charset=utf-8",
             dataType: "json",

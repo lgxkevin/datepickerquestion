@@ -12,7 +12,7 @@
         if (elem.val() === "") {
             console.log(elem.val());
             $.ajax({
-                url: "https://localhost:44379/api/Date",
+                url: "/api/Date",
                 success: function(result) {
                     datePart = result.split("T")[0];
                     timePart = result.split("T")[1];
